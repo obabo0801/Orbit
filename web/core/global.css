@@ -1,0 +1,13 @@
+:root {
+  --space: 0.5rem;
+  --font: system-ui, sans-serif;
+  --size: 2rem;
+  --height: 1.25;
+  --weight: 600;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  overflow-wrap: anywhere;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "was",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=12.8.1 <13"
+  },
+  "imports": {
+    "#was/*": "./*"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "database": "node database/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "check": "prettier --check ."
+  },
+  "dependencies": {
+    "pg": "8.23.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.11.0",
+    "prettier": "3.9.9"
+  }
+}

@@ -1,0 +1,14 @@
+.screen {
+  display: grid;
+  place-items: center;
+  padding: calc(var(--space) * 4);
+  box-sizing: border-box;
+  min-height: 100svh;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--size);
+  font-weight: var(--weight);
+  line-height: var(--height);
+}
